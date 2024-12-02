@@ -1,3 +1,4 @@
+<<<<<<< before updating
 # VBVarSel
 
 The goal of this package is to quickly and efficiently identify clusters of variables by using a scalable, computationally efficienty annealed variational Bayes algorithm for fitting high-dimensional mixture models with variable selection.
@@ -109,3 +110,48 @@ If you come across an issue when using this package, please create an issue on t
 ### License
 
 This project is developed by the MRC-Biostatistics Unit at Cambridge University under the GNU Public license.
+=======
+## Badges
+
+(Customize these badges with your own links, and check https://shields.io/ or https://badgen.net/ to see which other badges are available.)
+
+| fair-software.eu recommendations | |
+| :-- | :--  |
+| (1/5) code repository              | [![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/MRCBSU/vbvarsel) |
+| (2/5) license                      | [![github license badge](https://img.shields.io/github/license/MRCBSU/vbvarsel)](https://github.com/MRCBSU/vbvarsel) |
+| (3/5) community registry           | [![RSD](https://img.shields.io/badge/rsd-vbvarsel-00a3e3.svg)](https://www.research-software.nl/software/vbvarsel) [![workflow pypi badge](https://img.shields.io/pypi/v/vbvarsel.svg?colorB=blue)](https://pypi.python.org/project/vbvarsel/) |
+| (4/5) citation                     | [![DOI](https://zenodo.org/badge/DOI/<replace-with-created-DOI>.svg)](https://doi.org/<replace-with-created-DOI>)|
+| (5/5) checklist                    | [![workflow cii badge](https://bestpractices.coreinfrastructure.org/projects/<replace-with-created-project-identifier>/badge)](https://bestpractices.coreinfrastructure.org/projects/<replace-with-created-project-identifier>) |
+| howfairis                          | [![fair-software badge](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B-yellow)](https://fair-software.eu) |
+| **Other best practices**           | &nbsp; |
+| Documentation                      | [![Documentation Status](https://readthedocs.org/projects/vbvarsel/badge/?version=latest)](https://vbvarsel.readthedocs.io/en/latest/?badge=latest) || **GitHub Actions**                 | &nbsp; |
+| Build                              | [![build](https://github.com/MRCBSU/vbvarsel/actions/workflows/build.yml/badge.svg)](https://github.com/MRCBSU/vbvarsel/actions/workflows/build.yml) |
+| Citation data consistency          | [![cffconvert](https://github.com/MRCBSU/vbvarsel/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/MRCBSU/vbvarsel/actions/workflows/cffconvert.yml) |## How to use vbvarsel
+
+Identifies variable clustering for experimental design and analysis.
+
+The project setup is documented in [project_setup.md](project_setup.md). Feel free to remove this document (and/or the link to this document) if you don't need it.
+
+## Installation
+
+To install vbvarsel from GitHub repository, do:
+
+```console
+git clone git@github.com:MRCBSU/vbvarsel.git
+cd vbvarsel
+python -m pip install .
+```
+
+## Documentation
+
+Include a link to your project's full documentation here.
+
+## Contributing
+
+If you want to contribute to the development of vbvarsel,
+have a look at the [contribution guidelines](CONTRIBUTING.md).
+
+## Credits
+
+This package was created with [Copier](https://github.com/copier-org/copier) and the [NLeSC/python-template](https://github.com/NLeSC/python-template).
+>>>>>>> after updating

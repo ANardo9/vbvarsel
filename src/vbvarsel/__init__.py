@@ -1,6 +1,9 @@
-from .vbvarsel import main
-from .global_parameters import Hyperparameters, SimulationParameters
-from .experiment_data import ExperimentValues
+"""Documentation about vbvarsel."""
 
-__version__ = "0.0.1"
-__authors__ = ["Paul Kirk", "Emma Prevot", "Rory Toogood", "Filippo Pagani", "Alan Nardo"]
+import logging
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
+
+__author__ = "Alan Nardo"
+__email__ = "bsu.software@mrc-bsu.cam.ac.uk"
+__version__ = "0.1.0"
