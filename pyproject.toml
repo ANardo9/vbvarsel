@@ -19,7 +19,6 @@ classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
-    "",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
@@ -80,7 +79,7 @@ dependencies = [
     "wcwidth==0.2.13"
     ]
 description = "Selects variable clusters for experimental design (need to fix this later)"
-keywords = [""]
+keywords = ["statistics", "clustering"]
 license = {file = "LICENSE"}
 name = "vbvarsel"
 readme = {file = "README.md", content-type = "text/markdown"}
