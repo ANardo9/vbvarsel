@@ -7,4 +7,4 @@ Bug fixes can be reported on the GitHub issues page_ and we will get to them as 
 
 To contribute an extension of the capabilities, please submit a pull request and thouroughly explain the changes and the reason for them.
 
-.. _page: https://github.com/MRCBSU/variationalTempering_beta/issues
+.. _page: https://github.com/MRCBSU/vbvarsel/issues

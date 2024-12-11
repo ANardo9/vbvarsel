@@ -154,27 +154,27 @@ class ELBO_Computation:
     #(A51)
     def compute(
         self,
-        XDim,
-        K,
-        N,
-        C,
-        Z,
-        d,
-        delta,
-        beta,
-        beta0,
-        alpha,
-        alpha0,
-        a,
-        a0,
-        b,
-        b0,
-        m,
-        m0,
-        exp_ln_tau,
-        exp_ln_sigma,
-        f0,
-        T=1,
+        XDim: int,
+        K: int,
+        N: int,
+        C: np.ndarray,
+        Z: np.ndarray,
+        d: np.ndarray,
+        delta: int,
+        beta: np.ndarray,
+        beta0: np.ndarray,
+        alpha: np.ndarray,
+        alpha0: float,
+        a: float,
+        a0: np.ndarray,
+        b: np.ndarray,
+        b0: np.ndarray,
+        m: np.ndarray,
+        m0: np.ndarray,
+        exp_ln_tau: list,
+        exp_ln_sigma: np.ndarray,
+        f0: np.ndarray,
+        T: int=1,
     ) -> float:
         """Function to compute the Evidence Lower Bound (ELBO). The ELBO is
         the useful lower-bound on the log-likelihood of observed data. 
@@ -215,7 +215,7 @@ class ELBO_Computation:
             m0: np.ndarray
                 Prior mean
             exp_ln_tau: list
-                expected ln(tau) array
+                expected ln(tau) list of values
             exp_ln_sigma: np.ndarray
                 expected ln(sigma) array
             f0: np.ndarray

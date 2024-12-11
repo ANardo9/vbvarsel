@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import typing
 import os
-from sklearn.preprocessing import LabelEncoder
 from .experiment_data import ExperimentValues
 
 class UserDataHandler:

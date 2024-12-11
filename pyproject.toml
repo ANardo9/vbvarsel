@@ -44,8 +44,6 @@ dependencies = [
     "jupyter_client==8.6.2",
     "jupyter_core==5.7.2",
     "kiwisolver==1.4.5",
-    "matplotlib==3.9.1",
-    "matplotlib-inline==0.1.7",
     "mypy-extensions==1.0.0",
     "nest-asyncio==1.6.0",
     "numpy==2.0.1",
@@ -78,7 +76,7 @@ dependencies = [
     "tzdata==2024.1",
     "wcwidth==0.2.13"
     ]
-description = "Selects variable clusters for experimental design (need to fix this later)"
+description = "Quickly identify clusters of variables by using a scalable, computationally efficienty annealed variational Bayesian algorithm."
 keywords = ["statistics", "clustering"]
 license = {file = "LICENSE"}
 name = "vbvarsel"
@@ -130,7 +128,7 @@ command_line = "-m pytest"
 [tool.tox]
 legacy_tox_ini = """
 [tox]
-envlist = py38,py39,py310,py311,py312
+envlist = py38,py39,py310,py311,py312,py13
 skip_missing_interpreters = true
 [testenv]
 commands = pytest

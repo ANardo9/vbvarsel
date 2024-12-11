@@ -23,7 +23,8 @@ Parameters can be left to optional default values or may be customised by the de
 Simulation parameters are parameters for simulating an experiment with synthetic data. Data is created synthetically according to Crook et al, [read the paper here](https://www.degruyter.com/document/doi/10.1515/sagmb-2018-0065/html). 
 
 ```
-import vbvarsel as vbvs
+import vbvarsel.vbvarsel as vbvs
+# from vbvarsel import vbvarsel #alternate import method
 
 sim_params = vbvs.global_parameters.SimulationParameters()
 
