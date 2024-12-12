@@ -6,4 +6,4 @@ logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 __author__ = "Alan Nardo"
 __email__ = "bsu.software@mrc-bsu.cam.ac.uk"
-__version__ = "0.2.1"
+__version__ = "0.2.2"
